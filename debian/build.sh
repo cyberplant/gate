@@ -14,3 +14,6 @@ mv gate_* deploy
 cd deploy
 dpkg-scanpackages . /dev/null > Packages
 bzip2 -kf Packages
+cd ..
+
+ncftpput -R -v -u "$$FTPUSER" -p "$$FTPPASS" packages.roji.net packages.roji.net/ deploy/*
