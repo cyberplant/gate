@@ -1,6 +1,6 @@
 image: python2.7
 
 script:
-  - apt-get update -q && apt-get install ncftp
-  - make
+  - sudo apt-get update -q && sudo apt-get install ncftp
+  - cd gate && make
   - debian/build.sh
