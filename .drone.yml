@@ -1,0 +1,5 @@
+image: python2.7
+
+script:
+  - make
+  - debian/build.sh

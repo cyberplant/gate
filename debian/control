@@ -1,0 +1,12 @@
+Source: gatejs
+Section: nodejs
+Priority: optional
+Maintainer: Luar Roji <luar@roji.net>
+Build-Depends: debhelper (>= 7.0.50), python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3)
+Standards-Version: 3.8.3
+Homepage: http://www.gatejs.org/
+
+Package: gatejs
+Architecture: all
+Description: Javascript based reverse & forward proxy 
+ with high performance & capability
