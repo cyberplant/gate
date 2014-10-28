@@ -5,5 +5,5 @@ script:
   - ls -l
   - ./configure
   - make
-  - make install
+  - sudo make install
   - debian/build.sh
